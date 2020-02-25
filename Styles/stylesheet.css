@@ -85,3 +85,61 @@ h3 {
 #scroll-to-top-btn:hover {
   background-color: #555;
 }
+
+/* Begin cutout/knockout text */
+.image-container {
+  /*background-color: black;*/
+  background-size: cover; 
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 250px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  /*font-size: 2vw;*/ /* Responsive font size */
+  font-size: 25px;
+  /*font-weight: bold;*/
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  /*width: 50%;*/
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+/* End cutout style */
+
+/* Begin nav bar style*/
+.navbar {
+  z-index: 9999; /*Need this to keep nav bar in front of content*/
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  color: black;
+}
+/* End nav bar style */
