@@ -76,11 +76,10 @@ h3 {
   padding: 15px;
   border-radius: 4px;
 }
-/* --- End scroll to top button style */
-
 #scroll-to-top-btn:hover {
   background-color: #555;
 }
+/* --- End scroll to top button style */
 
 /* Begin nav bar style --- */
 .navbar {
