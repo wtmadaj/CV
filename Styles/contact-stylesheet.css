@@ -118,11 +118,17 @@ input[type=text],[type=tel], [type=email], textarea {
 }
 .contact-button {
   font-size: 40px;
+  width: 70px;
   border: none;
   outline: none;
   background: transparent;
   color: white;
-  padding-right: 40px;
+  transition: transform .1s;
+}
+
+.contact-button:hover {
   cursor: pointer;
+  color: red;
+  transform: scale(1.5);
 }
 /* --- End contact icon area style */
