@@ -78,8 +78,7 @@ h3 {
 }
 #scroll-to-top-btn:hover {
   background-color: #555;
-}
-/* --- End scroll to top button style */
+}/* --- End scroll to top button style */
 
 /* Begin nav bar style --- */
 .navbar {
@@ -110,8 +109,7 @@ h3 {
 
 .navbar a.active {
   color: black;
-}
-/* --- End nav bar style */
+}/* --- End nav bar style */
 
 /* Begin contact icon area style --- */
 .contact-icon-area {
@@ -136,8 +134,7 @@ h3 {
   cursor: pointer;
   color: red;
   transform: scale(1.5);
-}
-/* --- End contact icon area style */
+}/* --- End contact icon area style */
 
 /* Begin styling overlay nav --- */
 .overlay {
@@ -189,4 +186,12 @@ h3 {
   right: 35px;
   }
 }
-/* --- End overlay nav style */
+.overlay-button-area {
+  margin-top: 55%;
+}
+.overlay-button-area button {
+  color: #818181;
+}
+.overlay-button-area button:hover {
+  color: red;
+}/* --- End overlay nav style */
