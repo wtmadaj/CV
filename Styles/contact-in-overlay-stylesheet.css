@@ -80,8 +80,8 @@ h3 {
 }/* --- End scroll to top button style */
 
 /* Begin contact icon area style --- */
-.contact-icon-area {
-  z-index: 9999; /*Need this to keep nav bar in front of content*/
+.menu-button-area {
+  z-index: 9999; /*Need this to keep icons in front of content*/
   overflow: hidden;
   position: fixed;
   bottom: 0;
