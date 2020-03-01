@@ -12,7 +12,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url(../Images/Buildings.jpg); /* Photo by José A. Carpio on Unsplash */
@@ -79,37 +78,6 @@ h3 {
 #scroll-to-top-btn:hover {
   background-color: #555;
 }/* --- End scroll to top button style */
-
-/* Begin nav bar style --- */
-.navbar {
-  z-index: 9999; /*Need this to keep nav bar in front of content*/
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 40%;
-  border-radius: 5px;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
-  margin: 3px;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.navbar a.active {
-  color: black;
-}/* --- End nav bar style */
 
 /* Begin contact icon area style --- */
 .contact-icon-area {
